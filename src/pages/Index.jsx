@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Paw, Heart, Users, Award } from 'lucide-react';
+import { Heart, Users, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
@@ -24,7 +24,7 @@ const Index = () => {
         <Card>
           <CardHeader>
             <CardTitle className="flex items-center">
-              <Paw className="mr-2" /> Loyalty
+              Loyalty
             </CardTitle>
           </CardHeader>
           <CardContent>
